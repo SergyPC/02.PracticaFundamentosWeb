@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=viewport, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detalle de la Película</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/social.css">
+    <link rel="stylesheet" href="css/navbar-flexbox.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/detalle.css">
+    <link rel="icon" href="/favicon.png" sizes="32x32" type="image/png">
+</head>
+
+<body>
+  <header class="navbar">
+    <!-- Logo/nombre de la página -->
+    <!--<img src="./img/logo.jpg" alt="H2O España">-->
+    <div class="logo"><a href="./home.html#bienvenida">HBO</a></a></div>
+    
+    <!-- Líneas para montar el nav en modo hamburguesa -->
+    <input type="checkbox" id="burger-checkbox">
+    <label for="burger-checkbox" class="burger-label"></label>
+
+    <!-- Enlaces de navegación -->
+    <ul class="navbar-list">
+      <li class="navbar-item"><a href="./home.html#novedades">Novedades</a></li>
+      <li class="navbar-item"><a href="./home.html#peliculas">Películas</a></li>
+      <li class="navbar-item"><a href="./home.html#favoritos">Favoritos</a></li>
+      <li class="navbar-item"><a href="./index.html">Sesión Off</a></li>
+      <li class="navbar-item">
+        <a href="#">
+          <form action="#">
+            <input type="search" name="buscar" id="buscar">
+            <button type="submit">Buscar</button>
+          </form>
+        </a>
+      </li>
+    </ul>
+  </header>
+  
+  <main class="main">
+    <section id="video" class="video">
+      <div id="cabecera" class="cabecera">
+        <h1>El Caballero Oscuro: La leyenda renace</h1>
+      </div>
+      <div id="video" class="video">
+        <!--<video autoplay controls>-->
+        <video controls>
+          <source src="./vid/video.mov" type="video/mov">
+          <source src="./vid/video.mp4" type="video/mp4">
+          <source src="./vid/video.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section id="detalle" class="detalle">
+      <h2>El Caballero Oscuro: La leyenda renace</h2>
+      <div class="grid-container">
+        <div class="grid-item item1">
+          Ocho años después del reinado anarquista del Joker, 
+          Batman se ve obligado a volver de su exilio para salvar Gotham. 
+          Ahora el brutal terrorista Bane amenaza con destruir la ciudad.
+        </div>
+        <div class="grid-item item2">
+          <p><b>Valoración:</b> 6,2/10</p>
+          <p><b>Año:</b> 2012</p>
+          <p><b>Duración:</b> 2:37:44</p>
+          <p><b>Reparto:</b> Tom Hardy, Christian Bale, Gary Oldman, Anne Hathaway, Joseph Gordon-Levitt</p>
+          <p><b>Director:</b> Christopher Nolan</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="similares" class="similares">
+      <h2>Películas similares</h2><hr>
+      <div class="containerPeliculas">
+        <div class="item peli1">
+          <div class="caratula1"><img src="./img/caratula1.jpg" alt="Batman (1989)" class="imagenCaratula1"></div>
+          <div class="detalleCaratula">
+            <a href="#">La película de Batman (1989)</a>
+          </div>
+        </div>
+        <div class="item peli2">
+          <div class="caratula2"><img src="./img/caratula2.jpg" alt="Batman Returns (1992)" class="imagenCaratula2"></div>
+          <div class="detalleCaratula">
+            <a href="#">La película de Batman Returns (1992)</a>
+          </div>
+        </div>
+        <div class="item peli3">
+          <div class="caratula3"><img src="./img/caratula3.jpg" alt="Batman Forever (1995)" class="imagenCaratula3"></div>
+          <div class="detalleCaratula">
+            <a href="#">La película de Batman Forever (1995)</a>
+          </div>
+        </div>
+        <div class="item peli4">
+          <div class="caratula4"><img src="./img/caratula4.jpg" alt="Batman y Robin (1997)" class="imagenCaratula4"></div>
+          <div class="detalleCaratula">
+            <a href="#">La película de Batman y Robin (1997)</a>
+          </div>
+        </div>
+        <div class="item peli5">
+          <div class="caratula5"><img src="./img/caratula5.jpg" alt="Batman Begins (2005)" class="imagenCaratula5"></div>
+          <div class="detalleCaratula">
+            <a href="#">La película de Batman Begins (2005)</a>
+          </div>
+        </div>
+        <div class="item peli6">
+          <div class="caratula6"><img src="./img/caratula6.jpg" alt="El Caballero Oscuro (2008)" class="imagenCaratula6"></div>
+          <div class="detalleCaratula">
+            <a href="#">La película de del Caballero Oscuro (2008)</a>
+          </div>
+        </div>
+        <div class="item peli7">
+          <div class="caratula7"><img src="./img/caratula7.jpg" alt="El Caballero Oscuro: La leyenda renace (2012)" class="imagenCaratula7"></div>
+          <div class="detalleCaratula">
+            <a href="#">El Caballero Oscuro: La leyenda renace (2012)</a>
+          </div>
+        </div>
+        <div class="item peli8">
+          <div class="caratula8"><img src="./img/caratula8.jpg" alt="Batman Vs Superman: El amanecer de la justicia (2016)" class="imagenCaratula8"></div>
+          <div class="detalleCaratula">
+            <a href="#">Batman Vs Superman: Dawn of justice (2016)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <!-- Información de HBO -->
+    <aside class="links">
+      <ul class="links-list">
+        <!-- Enlaces a más información -->
+        <li><a href="#" target="self" rel="noopener">¿Cómo ver HBO?</a></li>
+        <li><a href="#" target="self" rel="noopener">FAQS</a></li>
+        <li><a href="#" target="self" rel="noopener">Contacto</a></li>
+      </ul>
+    </aside>
+    <aside class="social">
+      <ul class="social-list">
+        <!-- Enlaces a WEBs Sociales-->
+        <li><a href="#" target="self" rel="noopener"><i class="social-facebook"></i></a></li>
+        <li><a href="#" target="self" rel="noopener"><i class="social-twitter"></i></a></li>
+        <li><a href="#" target="self" rel="noopener"><i class="social-linkedin"></i></a></li>
+      </ul>
+    </aside>
+  </footer>
+
+</body>
+</html>

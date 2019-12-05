@@ -63,7 +63,7 @@ button[type="submit"] {
 
 
 .imagen{
-    background-image: url(../img/materiaOscura.jpeg); 
+    background-image: url(../img/materiaOscura-compressor.jpeg); 
     image-rendering: -webkit-optimize-contrast;
     height: 168px;
     background-position: top center;

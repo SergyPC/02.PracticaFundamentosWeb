@@ -80,18 +80,18 @@ CONTAINER : ITEM
 */
 
 
-  .item {
+.item {
     position: relative;
     max-width: 307px;
     overflow: hidden;
-  }
+}
 
-  .item:hover .detalleCaratula {
+.item:hover .detalleCaratula {
     transform: translateY(0);
     opacity: 1;
-  }
+}
 
-  .detalleCaratula {
+.detalleCaratula {
     position: absolute;
     bottom: 0;
     background-color: rgba(0,0,0, 0.8);
@@ -104,7 +104,7 @@ CONTAINER : ITEM
     cursor: pointer;
     transition: all ease-in 0.75s;
     font-size: 0.9rem;
-  }
+}
 
 
 .item a {
@@ -113,6 +113,11 @@ CONTAINER : ITEM
 }
 
 .item a:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.inputlabel:hover, #activar1:hover, #activar2:hover, #activar3:hover {
     color: aqua;
     cursor: pointer;
 }

@@ -256,6 +256,47 @@
         </div>
       </div>
     </section>
+
+<style>
+.inputlabel{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#activar1 ~ .desplegable1 {display: none;overflow: hidden;}
+#activar1:checked ~ .desplegable1 {display: block;}
+
+#activar2 ~ .desplegable2 {display: none;overflow: hidden;}
+#activar2:checked ~ .desplegable2 {display: block;}
+
+#activar3 ~ .desplegable3 {display: none;overflow: hidden;}
+#activar3:checked ~ .desplegable3 {display: block;}
+
+</style>
+<section id="preguntasFrecuentes" class="preguntasFrecuentes">
+    <h2>Preguntas Frecuentes</h2><hr>
+    <input id="activar1" name="activar1" type="checkbox">
+    <label class="inputlabel" for="activar1">¿Qué es HBO?</label>
+    <div class="desplegable1">
+      <p>HBO es un servicio de streaming que ofrece una amplia variedad de series, películas, títulos de anime, documentales y otros contenidos premiados en miles de dispositivos conectados a Internet.</p>
+      <p>Puedes ver todo el contenido que quieras, cuando quieras y sin un solo anuncio por una tarifa mensual reducida. ¡Siempre hay algo nuevo que descubrir, y cada semana se añaden nuevas series y películas!</p>
+    </div>
+    <hr>
+    <input id="activar2" name="activar2" type="checkbox">
+    <label class="inputlabel" for="activar2">¿Cuánto cuesta HBO?</label>
+    <div class="desplegable2">
+      <p>Disfruta de HBO en tu smartphone, tableta, Smart TV, ordenador o dispositivo de streaming, todo por una pequeña tarifa mensual fija. Planes a partir de 7,99 € al mes. Sin cargos adicionales ni contratos.</p>
+    </div>
+    <hr>
+    <input id="activar3" name="activar3" type="checkbox">
+    <label class="inputlabel" for="activar3">¿Cómo cancelo HBO?</label>
+    <div class="desplegable3">
+      <p>HBO es flexible. Sin contratos liosos ni compromisos. Puedes cancelar fácilmente tu cuenta en línea con tan solo dos clics. Sin cargos por cancelación: activa o cancela tu cuenta en cualquier momento.</p>
+    </div>
+    <hr>
+</section>
+
   </main>
 
   <footer class="footer">
@@ -277,6 +318,5 @@
       </ul>
     </aside>
   </footer>
-
 </body>
 </html>

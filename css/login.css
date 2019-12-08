@@ -20,13 +20,7 @@ p, div, a{
     padding-left: 1rem;
 }
 
-/*Me cambiaria todos los a y eso no quiero solo quiero modificar el de la contraseña*/
-/*
-a:hover{
-    color: deepskyblue;
-    font-size: 300pt;
-}*/
-
+/*"a y a:hover" Me cambiaria todos los a y eso no quiero solo quiero modificar el de la contraseña*/
 .item2 a {
     color: white;
     text-decoration: none;
@@ -61,70 +55,27 @@ button[type="submit"] {
     background: linear-gradient(to right, #88bff7, #6DD5F9);
 }
 
-
 .imagen{
     background-image: url(../img/materiaOscura-compressor.jpeg); 
     image-rendering: -webkit-optimize-contrast;
     height: 168px;
     background-position: top center;
-    /*background-size: cover;*/
     background-repeat: no-repeat;
-    /*background-size: auto;*/
 }
-
-/*
-.footer{
-    background-color: rgb(184, 37, 37);
-    margin-bottom: 0px;
-}
-
-.main{
-    background-color: rgb(37, 52, 184);
-    --pantalla: 79vh;
-    height: calc (var (pantalla) );
-}
-*/
 
 .grid-item{
-    /*background-color: rgb(184, 37, 37);*/
-    /*border: solid 1px rgb(37, 59, 184);*/
     align-content: center;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-/*
-    grid-template-areas: "header header"
-                         "main main"
-                         "footer footer";
-    grid-template-rows: auto 1fr auto;
-*/
     gap: 3.5rem;
-
-    /*background-color: rgb(184, 37, 135);*/
-    
-/*
-    grid-template-columns: 1fr;
-    grid-template-areas: "header header"
-                         "main main"
-                         "footer footer";                   
-    grid-gap: 15px;
-*/
-
-/*
-grid-template-areas: 'header header'
-                       'nav main'
-                       'footer footer';
-*/
-
-
 }
 
 @media all and (max-width:900px) {
     .grid-container {
         grid-template-columns: 1fr;
-        /*grid-template-columns: 400px;*/
     }
     .item1 {
         display: none;
@@ -132,17 +83,8 @@ grid-template-areas: 'header header'
         height: 0px;
     }
     .item2 {
-        /*width: 400px;
-        justify-content: center;
-        align-content: center;
-        */
         display: block;
         margin: auto;
-        /*margin-left: 20vw;*/
-        /*
-        --mediaPantalla: 650px;
-        margin-left: calc (var (mediaPantalla) - 200px);
-        */
     }
 }
 

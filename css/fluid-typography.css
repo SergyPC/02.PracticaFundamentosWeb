@@ -1,14 +1,13 @@
 :root {
-    --fluid-type: 0.6vw;  
+  --fluid-type: 0.6vw;  
 }
 
 @media (min-width: 1px) and (max-width: 767px) {
-    h2 {
-      font-size: calc( 20px + var(--fluid-type) );
-      /*color: red;*/
-    }
-
-    p {
-      font-size: calc( 14px + var(--fluid-type) );
-    }
+  h2 {
+    font-size: calc( 20px + var(--fluid-type) );
   }
+
+  p {
+    font-size: calc( 14px + var(--fluid-type) );
+  }
+}

@@ -90,7 +90,11 @@ button[type="submit"] {
 
 @media only screen and (max-width: 424px) {
     input, button[type="submit"] {
-        width: 100vmin;
+        width: 90vmin;
+    }
+    main{
+        padding-left: 5vmin;
+        padding-right: 5vmin;
     }
 }
 

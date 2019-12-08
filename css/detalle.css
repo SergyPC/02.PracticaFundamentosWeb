@@ -90,6 +90,14 @@ b{
     margin: 0;
 }
 
+@media all and (max-width:910px) {
+
+    main{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 /*
 @media only screen and (min-width: 480px) and (max-width:1024px) and (orientation:landscape) {
     .ReproductorVideo{

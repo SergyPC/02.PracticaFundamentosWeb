@@ -4,14 +4,32 @@
     font-weight: bold;
 }
   
-#activar1 ~ .desplegable1 {display: none; overflow: hidden;}
-#activar1:checked ~ .desplegable1 {display: block;}
+#activar1 ~ .desplegable1 {
+    display: none; 
+    overflow: hidden;
+}
 
-#activar2 ~ .desplegable2 {display: none; overflow: hidden;}
-#activar2:checked ~ .desplegable2 {display: block;}
+#activar1:checked ~ .desplegable1 {
+    display: block;
+}
 
-#activar3 ~ .desplegable3 {display: none; overflow: hidden;}
-#activar3:checked ~ .desplegable3 {display: block;}
+#activar2 ~ .desplegable2 {
+    display: none; 
+    overflow: hidden;
+}
+
+#activar2:checked ~ .desplegable2 {
+    display: block;
+}
+
+#activar3 ~ .desplegable3 {
+    display: none; 
+    overflow: hidden;
+}
+
+#activar3:checked ~ .desplegable3 {
+    display: block;
+}
 
 .inputlabel:hover, #activar1:hover, #activar2:hover, #activar3:hover {
     cursor: pointer;

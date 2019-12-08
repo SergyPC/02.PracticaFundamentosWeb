@@ -50,10 +50,17 @@
     .links-list {
         list-style-type: none;
         text-align: center;
+        align-items: center;
     }
 
     .links li {
-        padding: 0.5rem;
+        padding: 0rem;
+        margin-right: 9vmin;
+    }
+
+    .social-list{
+        padding: 0rem;
+        margin-right: 4vmin;
     }
 
     .links a::after {
